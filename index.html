@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>ng2 <3 jspm</title>
+  </head>
+  <body>
+    <my-app></my-app>
+
+    <!-- DEV MODE -->
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <!--<script src="https://code.angularjs.org/2.0.0-alpha.33/angular2.dev.js"></script>-->
+    <script>
+      System.import('reflect-metadata');
+      System.import('zone.js');
+      System.import('es6-shim');
+      System.import('app');
+    </script>    
+
+  </body>
+</html>

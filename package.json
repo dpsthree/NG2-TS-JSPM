@@ -12,9 +12,6 @@
       "typescript": "github:mhegazy/typescript@v1.5-beta2"
     }
   },
-  "dependencies": {
-    "jspm": "^0.16.0-beta.3"
-  },
   "devDependencies": {
     "jspm": "^0.16.0-beta.3",
     "live-server": "^0.8.1"

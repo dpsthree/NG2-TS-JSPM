@@ -1,6 +1,6 @@
-console.log('Hello');
 import {bootstrap, Component, View, Injectable} from 'angular2';
 import {NgIf} from 'angular2';
+
 
 class DataService {
   constructor() {
@@ -15,7 +15,7 @@ class DataService {
     viewInjector: [DataService]
 })
 @View({
-  templateUrl: "app/hello.html",
+  templateUrl: "app/my-app-template.html",
   directives: [NgIf]
 })
 class MyAppComponent {

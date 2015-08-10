@@ -21,7 +21,7 @@ System.config({
 
 System.config({
   "map": {
-    "angular2": "npm:angular2@2.0.0-alpha.33",
+    "angular2": "npm:angular2@2.0.0-alpha.34",
     "es6-shim": "github:es-shims/es6-shim@0.33.0",
     "reflect-metadata": "npm:reflect-metadata@0.1.0",
     "typescript": "github:mhegazy/typescript@v1.5-beta2",
@@ -41,7 +41,7 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:angular2@2.0.0-alpha.33": {
+    "npm:angular2@2.0.0-alpha.34": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1",

@@ -1,6 +1,5 @@
-import {bootstrap, Component, View, Injectable} from 'angular2';
+import {bootstrap, Component, View} from 'angular2';
 import {NgIf} from 'angular2';
-
 
 class DataService {
   constructor() {
@@ -12,7 +11,7 @@ class DataService {
 
 @Component({
     selector: 'my-app',
-    viewInjector: [DataService]
+    viewBindings: [DataService]
 })
 @View({
   templateUrl: "app/my-app-template.html",

@@ -21,7 +21,6 @@ System.config({
 
 System.config({
   "map": {
-    "angular/angular": "github:angular/angular@2.0.0-alpha.33",
     "angular2": "npm:angular2@2.0.0-alpha.33",
     "es6-shim": "github:es-shims/es6-shim@0.33.0",
     "reflect-metadata": "npm:reflect-metadata@0.1.0",
